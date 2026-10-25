@@ -1,0 +1,5 @@
+input_size,cpu_ms,cuda_kernel_ms,total_cuda_ms,speedup_kernel,speedup_total,correct
+1024,0.165,0.082,0.245,2.01,0.67,YES
+16384,4.821,0.198,0.642,24.35,7.51,YES
+262144,114.350,2.120,5.840,53.94,19.58,YES
+1048576,562.480,9.610,23.450,58.53,23.99,YES
