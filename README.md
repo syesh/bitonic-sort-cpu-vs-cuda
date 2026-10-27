@@ -189,25 +189,6 @@ The benchmark evaluates powers of two from $N = 1,024$ ($2^{10}$) up to $N = 1,0
 
 ---
 
-### Generated Performance Charts
-
-#### 1. GPU Speedup over Serial CPU
-Shows both pure **Kernel Speedup** (compute capability) and **Total Speedup** (inclusive of PCIe transfer overhead):
-
-![Speedup Chart](assets/speedup.png)
-
-#### 2. CPU vs. CUDA Execution Time (All Stages)
-Logarithmic scale comparing Serial CPU, CUDA Kernel time, and Total CUDA wall-clock time:
-
-![Execution Time Chart](assets/execution_time.png)
-
-#### 3. CPU vs. CUDA Kernel Time
-Direct comparison between CPU sorting time and pure GPU compute time:
-
-![CPU vs Kernel Chart](assets/cpu_vs_cuda_kernel.png)
-
----
-
 ### Analytical Insights
 
 1. **The PCIe Transfer Bottleneck at Small $N$:**
